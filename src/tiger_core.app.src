@@ -1,0 +1,12 @@
+{application, tiger_core,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tiger_core_app, []}},
+  {env, []}
+ ]}.
